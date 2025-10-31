@@ -42,7 +42,7 @@ const Greeting = () => {
 
   return (
     <div className="text-center text-white mt-6">
-      <h2 className="text-5xl font-semibold flex justify-center items-center gap-2">
+      <h2 className="text-4xl font-semibold flex justify-center items-center gap-2 font-[Helvetica]">
         {greeting},
         {isEditing ? (
           <form onSubmit={handleNameSubmit}>

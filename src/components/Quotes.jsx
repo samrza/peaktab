@@ -10,7 +10,7 @@ const Quotes = () => {
   }, []);
 
   return (
-    <div className="mt-10 text-center max-w-2xl">
+    <div className="mt-10 text-center max-w-2xl font-[Open_Sans]">
       <p className="text-2xl italic text-gray-200">"{quote.quote}"</p>
       <p className="mt-2 text-lg text-gray-300">— {quote.author}</p>
     </div>
